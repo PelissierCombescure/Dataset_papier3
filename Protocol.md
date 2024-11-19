@@ -1,0 +1,9 @@
+1. Calucler la saillance de limper sur les modèles 3D sur `rtx1` : /home/mpelissi/Limper/Saillance_limper/`run_my_compute_saliency_limper.py`
+    --> obtenir les fichiers CSV dans ModelNet40_limper_remeshing/...
+
+2. Calculer les infos (sommets visibles, cos(), ...) des 12 pov pour les modèles 3D avec `run_projection.py`
+    --> Obtenir fichiers NPZ et PKL dans Rendu/ModelNet40/my_circular_12_elevation_30_remeshing/...
+
+3. Calculer mon score : Surface3D + Somme(cos*limper) avec `formule_bvs.py`
+    --> Obtenir ficher pkl des BVS dans Rendu/ModelNet40/my_circular_12_elevation_30_remeshing/...
+
